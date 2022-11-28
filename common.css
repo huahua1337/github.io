@@ -3,13 +3,11 @@
 body{overflow: hidden;background: #000000;}
 
 .perspectice{
-<!--景深 -->
     perspective: 800px;
 }
 .wrap{
     width: 133px;
     height: 200px;
-    border: 1px solid cornflowerblue;
     margin: 150px auto;
 
     transform-style: preserve-3d;
