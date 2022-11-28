@@ -6,7 +6,19 @@
         <link rel="stylesheet" type="text/css" href="common.css"/>
 
         <style>
+            body {
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                background: #000;
+            }
 
+            canvas {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+            
             audio {
                 display: none;
             }
@@ -46,7 +58,7 @@
             const tzButton = document.getElementById("tz-button");
 
             function buttonClick(event) {
-                window.location.href = 'http://huahua1337.cn/'
+                window.location.href = 'http://huahua1337.cn'
             }
             tzButton.addEventListener("click", buttonClick);
 
