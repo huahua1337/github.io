@@ -6,16 +6,28 @@
         <link rel="stylesheet" type="text/css" href="common.css"/>
 
         <style>
+
             audio {
                 display: none;
+            }
+
+            #tz-button {
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            }
+
+            #tz-button {
+                color: pink;
+                border: 2px solid rgba(255, 255, 255, 0);
             }
         </style>
 
     </head>
     <body>
         <center><div id="tz-button" class="overlay-button">❤</div></center>
+        <canvas id="pinkboard"></canvas>
         <audio id="music" autoplay="autoplay" controls="controls"loop="loop" preload="auto"
-            src="http://music.163.com/song/media/outer/url?id=489997025.mp3">
+                    src="http://music.163.com/song/media/outer/url?id=489997025.mp3">
         </audio>
         
         <div class="show">
@@ -30,7 +42,47 @@
                 <img src="images/8.jpg" >
                 <img src="images/9.jpg" >
                 <img src="images/10.jpg" >
-            </div>
+            <script>
+            const tzButton = document.getElementById("tz-button");
+
+            function buttonClick(event) {
+                window.location.href = 'http://huahua1337.cn/love.html'
+            }
+            tzButton.addEventListener("click", buttonClick);
+
+            window.onload = function(){
+                setInterval("toggleSound()",1);
+            }
+            function toggleSound() {
+                var music = document.getElementById("music"); 
+                if (music.paused) {   
+                    music.paused=false;
+                    music.play(); 
+                }    
+            }
+            
+            document.addEventListener('DOMContentLoaded', function () {
+                function audioAutoPlay() {
+                    var audio = document.getElementById('music');
+                        audio.play();
+                    document.addEventListener("WeixinJSBridgeReady", function () {
+                        audio.play();
+                    }, false);
+                }
+                audioAutoPlay();
+            });
+            
+            document.addEventListener('touchstart', function () {
+                function audioAutoPlay() {
+                    var audio = document.getElementById('music');
+                        audio.play();
+                }
+                audioAutoPlay();
+            });
+            /*
+             * Settings
+             */
+            </script>
         </div>
     </body>
 </html>
