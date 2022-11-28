@@ -24,15 +24,34 @@
 			audio {
 				display: none;
 			}
+
+			#tz-button {
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+			}
+
+        	#tz-button {
+            	color: pink;
+            	border: 2px solid rgba(255, 255, 255, 0);
+        	}
 		</style>
 	</HEAD>
 
 	<BODY>
+		<center><div id="tz-button" class="overlay-button">❤</div></center>
 		<canvas id="pinkboard"></canvas>
 		<audio id="music" autoplay="autoplay" controls="controls"loop="loop" preload="auto"
 		            src="http://music.163.com/song/media/outer/url?id=92272.mp3">
 		</audio>
+
 		<script>
+			const tzButton = document.getElementById("tz-button");
+
+			function buttonClick(event) {
+            	window.location.href = 'http://huahua1337.cn/imgs.html'
+			}
+			tzButton.addEventListener("click", buttonClick);
+
 			window.onload = function(){
 				setInterval("toggleSound()",1);
 			}
