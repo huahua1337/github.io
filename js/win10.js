@@ -1,5 +1,5 @@
 /**
- * Created by Yuri2 on 2017/7/10.
+ * Created by huahua on 2012/11/28.
  */
 window.Win10 = {
     _version:'v1.1.2.4',
