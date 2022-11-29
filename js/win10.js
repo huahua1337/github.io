@@ -1,5 +1,5 @@
 /**
- * Created by Yuri2 on 2017/7/10.
+ * Created by huahua on 2022/11/28.
  */
 window.Win10 = {
     _version:'v1.1.2.4',
@@ -446,7 +446,7 @@ window.Win10 = {
         });
         //打广告
         setTimeout(function () {
-            console.log(Win10.lang('本页由Win10-UI强力驱动\n更多信息：http://win10ui.yuri2.cn \nWin10-UI,轻松打造别具一格的后台界面 ','The page is strongly driven by Win10-UI.\nFor more info: http://win10ui.yuri2.cn.\n Win10-UI, easy to create a unique background interface.'))
+            console.log(Win10.lang('本页由huahua1337.cn强力驱动\n更多信息:huahua1337.cn,轻松打造别具一格的后台界面 ','The page is strongly driven by huahua1337.cn.\nFor more info: http://huahua1337.cn\n huahua1337.cn, easy to create a unique background interface.'))
         },2000);
         //点击清空右键菜单
         $(document).click(function (event) {
@@ -526,8 +526,8 @@ window.Win10 = {
         });
 
         /**
-         * WIN10-UI v1.1.2.2 桌面舞台支持补丁
-         * WIN10-UI v1.1.2.2之后的版本不需要此补丁
+         * huahua v1.1.2.2 桌面舞台支持补丁
+         * huahua v1.1.2.2之后的版本不需要此补丁
          * @usage 直接引用即可（需要jquery）
          * @author Yuri2
          */
@@ -860,13 +860,13 @@ window.Win10 = {
             closeBtn: 1, //不显示关闭按钮
             anim: 2,
             skin: 'layui-layer-molv',
-            title: 'WIN10-UI '+this._version,
+            title: 'huahua '+this._version,
             shadeClose: true, //开启遮罩关闭
             area: ['320px', '200px'], //宽高
             content: '<div style="padding: 10px;font-size: 12px">' +
             '<p>支持组件:layer、jquery、animated.css、font-awesome</p>' +
-            '<p>尤里2号©版权所有</p>' +
-            '<p>作者邮箱:yuri2peter@qq.com</p>' +
+            '<p>huahua1337©版权所有</p>' +
+            '<p>作者邮箱:huahua1337@qq.com</p>' +
             '</div>'
         });
     },
