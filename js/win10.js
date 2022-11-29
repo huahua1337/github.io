@@ -865,8 +865,8 @@ window.Win10 = {
             area: ['320px', '200px'], //宽高
             content: '<div style="padding: 10px;font-size: 12px">' +
             '<p>支持组件:layer、jquery、animated.css、font-awesome</p>' +
-            '<p>huahua1337©版权所有</p>' +
-            '<p>作者邮箱:huahua1337@qq.com</p>' +
+            '<p>感谢crow老师的大力支持</p>' +
+            '<p>邮箱:huahua1337@qq.com</p>' +
             '</div>'
         });
     },
