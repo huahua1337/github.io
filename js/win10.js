@@ -1,5 +1,5 @@
 /**
- * Created by huahua on 2012/11/28.
+ * Created by huahua on 2022/11/28.
  */
 window.Win10 = {
     _version:'v1.1.2.4',
