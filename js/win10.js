@@ -865,8 +865,8 @@ window.Win10 = {
             area: ['320px', '200px'], //宽高
             content: '<div style="padding: 10px;font-size: 12px">' +
             '<p>支持组件:layer、jquery、animated.css、font-awesome</p>' +
-            '<p>尤里2号©版权所有</p>' +
-            '<p>作者邮箱:yuri2peter@qq.com</p>' +
+            '<p>花花1号©版权所有</p>' +
+            '<p>作者邮箱:huahua1337@qq.com</p>' +
             '</div>'
         });
     },
