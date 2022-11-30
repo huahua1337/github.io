@@ -5,8 +5,8 @@
 https://api.wuenci.com/meting/api/
 
 作者: imsyy
-主页：https://www.imsyy.top/
-GitHub：https://github.com/imsyy/home
+主页：https://www.huahua1337.cn/
+GitHub：https://github.com/huahua1337/github.io
 版权所有，请勿删除
 */
 let server = "netease"; //netease: 网易云音乐; tencent: QQ音乐; kugou: 酷狗音乐; xiami: 虾米; kuwo: 酷我
