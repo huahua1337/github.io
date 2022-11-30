@@ -1,7 +1,7 @@
 /*
 作者: imsyy
-主页：https://www.imsyy.top/
-GitHub：https://github.com/imsyy/home
+主页：https://www.huahua1337.cn/
+GitHub：https://github.com/huahua1337/github.io
 版权所有，请勿删除
 */
 
