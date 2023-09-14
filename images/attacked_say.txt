@@ -1,0 +1,2 @@
+OOP, {attacker} tried to attack me, his bullet went by {dist}u close to my head
+{attacker}的子弹从我头附近{dist}的距离飞过去了
